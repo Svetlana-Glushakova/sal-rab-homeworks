@@ -10,7 +10,7 @@ function parseProducts(json) {
     // Верните как результат функции свойство products объекта data
 }
 
-function parseProductsCards(json) {
+function renderProductsCards(json) {
     clearProducts();
     let products = parseProducts(json);
     let length = products.length;
